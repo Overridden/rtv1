@@ -1,0 +1,36 @@
+/*
+** test.c for rt1 in /home/nguye_1//afs_loc/projects/tmp/rt1/tp
+** 
+** Made by alexandre1 nguyen
+** Login   <nguye_1@epitech.net>
+** 
+** Started on  Thu Feb 21 14:51:33 2013 alexandre1 nguyen
+** Last update Sun Mar 17 16:09:19 2013 alexandre1 nguyen
+*/
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include "list.h"
+
+void	parsing(char *name_file)
+{
+  int	fd;
+  int	i;
+  char	*buf;
+
+  i = 0;
+  fd = open(name_file, O_RDONLY);
+  while ((buf = get_next_line(fd)))
+    {
+      printf("%s\n", buf);
+      free(buf);
+    }
+}
+
+int	main(int ac, char **av)
+{
+  parsing(av[1]);
+  return (EXIT_SUCCESS); 
+}

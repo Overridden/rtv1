@@ -1,0 +1,16 @@
+## FILE of rtv1
+## Started on Thursday, the 21th February by Alexandre Nguyen (nguye_1)
+#
+# 0 x y z		eye
+# 1 x y z		point for vision vector
+# 2 x y z r color	sphere
+# 3 x y z color		plan
+#
+0	-1000   	0	0
+1	0	0	0
+2	0	-300   	200	100	0xFFD714
+2	0	-70	0	100	0x00DD33
+2	0	100	0	100	0x2288FF
+3	0	0	-70	0x2266FF
+#
+## END OF FILE

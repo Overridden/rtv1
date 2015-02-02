@@ -1,0 +1,18 @@
+## DICK of rtv1
+## Started on Thursday, the 21th February by Alexandre Nguyen (nguye_1)
+#
+# 0 x y z		eye
+# 1 x y z		point for vision vector
+# 2 x y z r color	sphere
+# 3 x y z r color	cylindre
+# 4 x y z color		plan
+#
+0	-1000   	0	10
+1	0	0	0
+2	-110	0   	328	80	0xFF424B
+2	0	-70	-160	100	0xFF9451
+2	0	70	-160	100	0xFF9451
+3	-80	0	0	60	0xFF7C4C
+6	0	0	-200	0xFFFFFF
+#
+## END OF FILE

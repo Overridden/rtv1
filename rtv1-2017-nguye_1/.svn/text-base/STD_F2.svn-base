@@ -1,0 +1,30 @@
+## FILE of rtv1
+## Started on Thursday, the 21th February by Alexandre Nguyen (nguye_1)
+#
+# 0 x y z		eye
+# 1 x y z		point for vision vector
+# 2 x y z r color	sphere
+# 3 x y z r color	cylindre
+# 4 x y z a color	cone
+# 5 x y z a color	hyperboloide
+# 6 x y z color		plan
+#
+## EYE
+0	1000  	0	0
+## POINT
+1	0	0	0
+## SPHERE
+2	0	-300   	200	80	0xFFAB11
+2	0	-99	-160	100	0xAF60FF
+2	0	80	-160	100	0xFF4F51
+## CYLINDRE
+3	0	300	0	90	0xFF2E2B
+## CONE
+4	60	400	29	60	0xFFFFFF
+## HYPERBOLOIDE
+5	-60	-400	29	60	0xFFFFFF
+## PLAN
+6	0	0	-200		0x3DE242
+6	0	0	2000		0x34729B
+#
+## END OF FILE
